@@ -52,7 +52,7 @@ const Header = () => {
               </button>
             </ul>
 
-            {/* Burger Button */}
+           
             <button
               onClick={() => setOpen(!open)}
               className="md:hidden flex flex-col gap-1.5 z-50"
@@ -64,7 +64,7 @@ const Header = () => {
           </div>
         </div>
 
-        {/* Mobile Menu */}
+        
         {open && (
           <div data-aos="fade-down" className="md:hidden bg-violet-700 text-white absolute w-full left-0 top-20 shadow-lg">
             <ul className="flex flex-col items-center gap-6 py-8 font-medium">
@@ -84,7 +84,7 @@ const Header = () => {
         )}
       </header>
 
-      {/* Hero Section - ID endi shu yerda! */}
+     
       <div id="Demos" className="bg-gradient-to-r from-violet-600 to-pink-600 text-white overflow-hidden scroll-mt-20">
         <div className="max-w-7xl mx-auto px-6 py-24">
           <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-16">
